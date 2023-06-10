@@ -1,6 +1,6 @@
 # batch-bulk-move-to-profile
 
-Bash script that will get a list of NFTs to move into a Profile, then split them into batches of 25 and move each batch one at a time.
+Bash script that will pull a list of NFTs from a wallet and filter them down to only one collection to move into a Profile, then split them into batches of 25 and move each batch one at a time.
 
 ## Parameters
 - Parameter 1 = Collection ID from Mintgarden. This Collection ID will be used as a filter to select which NFTs to move.
